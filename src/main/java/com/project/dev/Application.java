@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {DummyApp} se encarga de realizar tareas específicas.
+ * @fileoverview    {Application} se encarga de realizar tareas específicas.
  *
  * @version         2.0
  *
@@ -12,23 +12,24 @@
  * @version 1.0     Implementación realizada.
  * @version 2.0     Documentación agregada.
  */
-package com.project.dev.dummy;
+package com.project.dev;
 
 import com.project.dev.dummy.serial.generic.client.GenericSerialClient;
 import com.project.dev.dummy.serial.generic.client.GenericSerialMessageListener;
-import org.springframework.boot.*;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
- * TODO: Definición de {@code DummyApp}.
+ * TODO: Definición de {@code Application}.
  *
  * @author Dyson Parra
  * @since 1.8
  */
 @EnableScheduling
 @SpringBootApplication
-public class DummyApp implements CommandLineRunner {
+public class Application implements CommandLineRunner {
 
     /**
      * TODO: Definición de {@code main}.
@@ -36,7 +37,7 @@ public class DummyApp implements CommandLineRunner {
      * @param args
      */
     public static void main(String[] args) {
-        SpringApplication.run(DummyApp.class, args);
+        SpringApplication.run(Application.class, args);
     }
 
     /**
