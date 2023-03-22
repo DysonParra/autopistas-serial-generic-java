@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {GenericSerialMessageListener} se encarga de realizar tareas específicas.
+ * @fileoverview    {GenericSerialMessageListener}
  *
  * @version         2.0
  *
