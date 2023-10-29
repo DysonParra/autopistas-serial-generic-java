@@ -18,7 +18,7 @@ package com.project.dev.dummy.serial.generic.client;
  * TODO: Definición de {@code GenericSerialMessageListener}.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public abstract class GenericSerialMessageListener {
 
