@@ -22,7 +22,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 /**
- * TODO: Definición de {@code GenericSerialClient}.
+ * TODO: Description of {@code GenericSerialClient}.
  *
  * @author Dyson Parra
  * @since 11
@@ -53,7 +53,7 @@ public class GenericSerialClient implements Runnable {
     protected final Object synchronizer = new Object();
 
     /**
-     * TODO: Definición de {@code GenericSerialClient}.
+     * TODO: Description of {@code GenericSerialClient}.
      *
      * @param portName
      * @param baudRate
@@ -72,7 +72,7 @@ public class GenericSerialClient implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code setSerialPort}.
+     * TODO: Description of {@code setSerialPort}.
      *
      * @param serialPort
      */
@@ -83,7 +83,7 @@ public class GenericSerialClient implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code initialize}.
+     * TODO: Description of {@code initialize}.
      *
      * @return
      */
@@ -107,7 +107,7 @@ public class GenericSerialClient implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code init}.
+     * TODO: Description of {@code init}.
      *
      */
     public void init() {
@@ -115,7 +115,7 @@ public class GenericSerialClient implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code stop}.
+     * TODO: Description of {@code stop}.
      *
      * @return
      */
@@ -135,7 +135,7 @@ public class GenericSerialClient implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code run}.
+     * TODO: Description of {@code run}.
      *
      */
     @Override

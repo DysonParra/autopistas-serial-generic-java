@@ -15,7 +15,7 @@
 package com.project.dev.dummy.serial.generic.client;
 
 /**
- * TODO: Definición de {@code GenericSerialMessageListener}.
+ * TODO: Description of {@code GenericSerialMessageListener}.
  *
  * @author Dyson Parra
  * @since 11
@@ -23,14 +23,14 @@ package com.project.dev.dummy.serial.generic.client;
 public abstract class GenericSerialMessageListener {
 
     /**
-     * TODO: Definición de {@code onMessage}.
+     * TODO: Description of {@code onMessage}.
      *
      * @param message
      */
     public abstract void onMessage(String message);
 
     /**
-     * TODO: Definición de {@code onResponse}.
+     * TODO: Description of {@code onResponse}.
      *
      * @param response
      */

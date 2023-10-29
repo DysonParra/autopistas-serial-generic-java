@@ -22,7 +22,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
- * TODO: Definición de {@code Application}.
+ * TODO: Description of {@code Application}.
  *
  * @author Dyson Parra
  * @since 11
@@ -32,7 +32,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 public class Application implements CommandLineRunner {
 
     /**
-     * TODO: Definición de {@code main}.
+     * TODO: Description of {@code main}.
      *
      * @param args
      */
@@ -41,7 +41,7 @@ public class Application implements CommandLineRunner {
     }
 
     /**
-     * TODO: Definición de {@code run}.
+     * TODO: Description of {@code run}.
      *
      * @param args
      * @throws Exception
