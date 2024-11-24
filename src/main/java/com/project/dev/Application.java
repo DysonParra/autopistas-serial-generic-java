@@ -32,9 +32,9 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 public class Application implements CommandLineRunner {
 
     /**
-     * TODO: Description of {@code main}.
+     * Entrada principal del sistema.
      *
-     * @param args
+     * @param args argumentos de la linea de comandos.
      */
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
