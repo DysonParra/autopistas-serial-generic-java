@@ -16,10 +16,6 @@ package com.project.dev;
 
 import com.project.dev.dummy.serial.generic.client.GenericSerialClient;
 import com.project.dev.dummy.serial.generic.client.GenericSerialMessageListener;
-import org.springframework.boot.CommandLineRunner;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
  * TODO: Description of {@code Application}.
@@ -27,9 +23,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  * @author Dyson Parra
  * @since 11
  */
-@EnableScheduling
-@SpringBootApplication
-public class Application implements CommandLineRunner {
+public class Application {
 
     /**
      * Entrada principal del sistema.
@@ -37,17 +31,6 @@ public class Application implements CommandLineRunner {
      * @param args argumentos de la linea de comandos.
      */
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
-    }
-
-    /**
-     * TODO: Description of {@code run}.
-     *
-     * @param args
-     * @throws Exception
-     */
-    @Override
-    public void run(String... args) throws Exception {
         System.out.println("START");
         GenericSerialClient serialClient = new GenericSerialClient("COM3", 9600, 8, 1, 0);
         serialClient.setOnMessageListener(new GenericSerialMessageListener() {
